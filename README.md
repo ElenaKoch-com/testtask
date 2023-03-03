@@ -13,7 +13,7 @@ Download the following software from the official websites to your default direc
    > A free real-time FFT audio spectrum analyzer.
    >
    For **SPAN VST** install only the selected components as shown below:
-   ![SPAN setup](/assets/img/SPAN_setup.png)
+   ![SPAN setup](SPAN_setup.png)
 ## Plugin Compilation in Cabbage
 1. Launch _Cabbage_ from the Windows Start Menu. 
 2. Open a pre-created `spectra.сds` file: **File** > **Open Csound file**. 
@@ -31,7 +31,7 @@ Download the following software from the official websites to your default direc
    - Notice that the **Buy Me** button displays countdown. 
    - Wait for the button text to change to **Still Evaluating**.
    - Click **Still Evaluating**.  
-   ![REAPER license button](/assets/img/REAPER_license.png)
+   ![REAPER license button](REAPER_license.png)
 3. Specify audio device settings: click **Options** tab > **Preferences**.  
    1. Click **REAPER Preferences** > **Device**:
       - **Audio system**: _ASIO_
@@ -56,7 +56,7 @@ In Cabbage plugin window update `VST:spectra` as the previous settings may be ir
 - In **Add** dialog select **New** > `VST:spectra (Cabbage Audio)`, and click **Add**. 
 4. Back in the Cabbage plugin window, drag `VST:spectra` up to make it the first item in the list.
 
-   ![drag item up](/assets/img/Cabbage_drag.png)
+   ![drag item up](Cabbage_drag.png)
 #### Plugin Controls
 **Noise Type** knob:
 > type 0 – white noise
