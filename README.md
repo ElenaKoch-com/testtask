@@ -12,7 +12,8 @@ Download the following software from the official websites to your default direc
    > A digital audio production application.
 - **SPAN VST** [https://www.voxengo.com/product/span/](https://www.voxengo.com/product/span/)  
    > A free real-time FFT audio spectrum analyzer.
-   >
+
+
    For **SPAN VST** install only the selected components as shown below:
    ![SPAN setup](SPAN_setup.png)
 ## Plugin Compilation in Cabbage
@@ -55,9 +56,10 @@ In Cabbage plugin window update `VST:spectra` as the previous settings may be ir
 2. Click **Remove** button.
 3. Click **Add** button.
 - In **Add** dialog select **New** > `VST:spectra (Cabbage Audio)`, and click **Add**. 
-4. Back in the Cabbage plugin window, drag `VST:spectra` up to make it the first item in the list.
+4. Back in the Cabbage plugin window, drag `VST:spectra` up to make it the first item in the list:
 
    ![drag item up](Cabbage_drag.png)
+   
    
 #### Plugin Controls
 **Noise Type** knob:
