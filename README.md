@@ -1,5 +1,6 @@
 # testtask
 Markdown and hosting on GitHub Pages
+
 # Cabbage Plugin
 ### Compilation and Installation
 This guide explains how to install, compile, and integrate audio software to visualize the generated sound effect in real time.
@@ -57,6 +58,7 @@ In Cabbage plugin window update `VST:spectra` as the previous settings may be ir
 4. Back in the Cabbage plugin window, drag `VST:spectra` up to make it the first item in the list.
 
    ![drag item up](Cabbage_drag.png)
+   
 #### Plugin Controls
 **Noise Type** knob:
 > type 0 – white noise
