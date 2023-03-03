@@ -11,9 +11,10 @@ Download the following software from the official websites to your default direc
 - **REAPER**  [https://www.reaper.fm](https://www.reaper.fm)  
    > A digital audio production application.
 - **SPAN VST** [https://www.voxengo.com/product/span/](https://www.voxengo.com/product/span/)  
-   > A free real-time FFT audio spectrum analyzer.   
-For **SPAN VST** install only the selected components as shown below:
-   ![SPAN setup](SPAN_setup.png)
+   > A free real-time FFT audio spectrum analyzer.
+
+For **SPAN VST** install only the selected components as shown below:  
+![SPAN setup](SPAN_setup.png)
 ## Plugin Compilation in Cabbage
 1. Launch _Cabbage_ from the Windows Start Menu. 
 2. Open a pre-created `spectra.сds` file: **File** > **Open Csound file**. 
@@ -58,11 +59,11 @@ In Cabbage plugin window update `VST:spectra` as the previous settings may be ir
    ![drag item up](Cabbage_drag.png)
    
    
-#### Plugin Controls
+#### Plugin Controls  
 **Noise Type** knob:
 > type 0 – white noise
 > type 1 – pink noise
-> type 2 – brown noise
+> type 2 – brown noise  
 
 **Noise Level** knob   
 > tunes the generated noise level in response to the vacuum cleaner output.
