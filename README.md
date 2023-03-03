@@ -58,7 +58,7 @@ In Cabbage plugin window update `VST:spectra` as the previous settings may be ir
 
    ![drag item up](Cabbage_drag.png)
    
-   
+  
 #### Plugin Controls  
 **Noise Type** knob:
 > type 0 – white noise  
