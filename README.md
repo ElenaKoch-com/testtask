@@ -11,8 +11,7 @@ Download the following software from the official websites to your default direc
 - **REAPER**  [https://www.reaper.fm](https://www.reaper.fm)  
    > A digital audio production application.
 - **SPAN VST** [https://www.voxengo.com/product/span/](https://www.voxengo.com/product/span/)  
-   > A free real-time FFT audio spectrum analyzer.
-
+   > A free real-time FFT audio spectrum analyzer.  
 
    For **SPAN VST** install only the selected components as shown below:
    ![SPAN setup](SPAN_setup.png)
@@ -40,11 +39,11 @@ Download the following software from the official websites to your default direc
       - **ASIO Driver**: _Roland Rubix_ 
    2. In the **REAPER Preferences** list scroll down and select **VST**.
    3. In **VST plug-ins settings** section:
-      a. Click **Edit path list** button > **Add path** > navigate to add `Cabbage\VST directory`.
-      b. Click **Edit path list button** > **Add path** > navigate to add path to SPAN.   
+      1. Click **Edit path list** button > **Add path** > navigate to add `Cabbage\VST directory`.
+      2. Click **Edit path list button** > **Add path** > navigate to add path to SPAN.   
 **_NOTE:_** by default it is installed to `C:\Program Files\Common Files\VST2\Voxengo`.  
-c. Click **Re-scan** button > select **Re-scan VST paths for new/modified plug-ins**.
-d. After scanning click **OK** to close the **REAPER Preferences** dialog.
+3. Click **Re-scan** button > select **Re-scan VST paths for new/modified plug-ins**.
+4. After scanning click **OK** to close the **REAPER Preferences** dialog.
 4. Click **File** > **Open project** > `spectra` (REAPER project file).
 5. The program displays three windows:  
     - REAPER project
