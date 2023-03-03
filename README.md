@@ -11,9 +11,8 @@ Download the following software from the official websites to your default direc
 - **REAPER**  [https://www.reaper.fm](https://www.reaper.fm)  
    > A digital audio production application.
 - **SPAN VST** [https://www.voxengo.com/product/span/](https://www.voxengo.com/product/span/)  
-   > A free real-time FFT audio spectrum analyzer.  
->
-   For **SPAN VST** install only the selected components as shown below:
+   > A free real-time FFT audio spectrum analyzer.   
+For **SPAN VST** install only the selected components as shown below:
    ![SPAN setup](SPAN_setup.png)
 ## Plugin Compilation in Cabbage
 1. Launch _Cabbage_ from the Windows Start Menu. 
