@@ -12,18 +12,18 @@ Download the following software from the official websites to your default direc
    > A digital audio production application.
 - **SPAN VST** [https://www.voxengo.com/product/span/](https://www.voxengo.com/product/span/)  
    > A free real-time FFT audio spectrum analyzer.
-
+   > 
 For **SPAN VST** install only the selected components as shown below:  
 ![SPAN setup](SPAN_setup.png)
-## Plugin Compilation in Cabbage
+## Plugin Compilation in Cabbage  
 1. Launch _Cabbage_ from the Windows Start Menu. 
 2. Open a pre-created `spectra.сds` file: **File** > **Open Csound file**. 
 3. Click **File** > **Export plugin** > **Export as VST Plugin Effect**.   
-    - In **Save file as** dialog:      
-        1. Create a **VST** folder.  
-        2. Name the file, for example, `spectra.dll` and save it to the **VST** folder.
-7. Close _Cabbage_.
-8. Make sure the **VST** folder contains the two files:  
+- In **Save file as** dialog:      
+   1. Create a **VST** folder.  
+   2. Name the file, for example, `spectra.dll` and save it to the **VST** folder.
+4. Close _Cabbage_.
+5. Make sure the **VST** folder contains the two files:  
    - [x] `.csd project file`  
    - [x] `.dll library file`
 ## Plugin Integration into REAPER
@@ -35,13 +35,13 @@ For **SPAN VST** install only the selected components as shown below:
    ![REAPER license button](REAPER_license.png)
 3. Specify audio device settings: click **Options** tab > **Preferences**.  
    1. Click **REAPER Preferences** > **Device**:
-      - **Audio system**: _ASIO_
-      - **ASIO Driver**: _Roland Rubix_ 
+     - **Audio system**: _ASIO_
+     - **ASIO Driver**: _Roland Rubix_ 
    2. In the **REAPER Preferences** list scroll down and select **VST**.
    3. In **VST plug-ins settings** section:
-        * Click **Edit path list** button > **Add path** > navigate to add `Cabbage\VST directory`.
-        * Click **Edit path list** button > **Add path** > navigate to add path to SPAN. **_NOTE:_** by default it is installed to `C:\Program Files\Common Files\VST2\Voxengo`. 
-        * Click **Re-scan** button > select **Re-scan VST paths for new/modified plug-ins**.
+   * Click **Edit path list** button > **Add path** > navigate to add `Cabbage\VST directory`.
+   * Click **Edit path list** button > **Add path** > navigate to add path to SPAN. **_NOTE:_** by default it is installed to `C:\Program Files\Common Files\VST2\Voxengo`. 
+   * Click **Re-scan** button > select **Re-scan VST paths for new/modified plug-ins**.
    4. After scanning click **OK** to close the **REAPER Preferences** dialog.
 4. Click **File** > **Open project** > `spectra` (REAPER project file).
 5. The program displays three windows:  
