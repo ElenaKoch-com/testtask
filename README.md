@@ -35,8 +35,8 @@ Download the following software from the official websites to your default direc
    ![REAPER license button](REAPER_license.png)
 3. Specify audio device settings: click **Options** tab > **Preferences**.  
    1. Click **REAPER Preferences** > **Device**:
-     - **Audio system**: _ASIO_
-     - **ASIO Driver**: _Roland Rubix_ 
+      - **Audio system**: _ASIO_
+      - **ASIO Driver**: _Roland Rubix_ 
    2. In the **REAPER Preferences** list scroll down and select **VST**.
    3. In **VST plug-ins settings** section:
         * Click **Edit path list** button > **Add path** > navigate to add `Cabbage\VST directory`.
@@ -53,7 +53,7 @@ In Cabbage plugin window update `VST:spectra` as the previous settings may be ir
 1. Select`VST:spectra...` item.
 2. Click **Remove** button.
 3. Click **Add** button.
-   - In **Add** dialog select **New** > `VST:spectra (Cabbage Audio)`, and click **Add**. 
+- In **Add** dialog select **New** > `VST:spectra (Cabbage Audio)`, and click **Add**.
 4. Back in the Cabbage plugin window, drag `VST:spectra` up to make it the first item in the list:
 
    ![drag item up](Cabbage_drag.png)
