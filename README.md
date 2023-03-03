@@ -12,7 +12,7 @@ Download the following software from the official websites to your default direc
    > A digital audio production application.
 - **SPAN VST** [https://www.voxengo.com/product/span/](https://www.voxengo.com/product/span/)  
    > A free real-time FFT audio spectrum analyzer.  
-
+>
    For **SPAN VST** install only the selected components as shown below:
    ![SPAN setup](SPAN_setup.png)
 ## Plugin Compilation in Cabbage
